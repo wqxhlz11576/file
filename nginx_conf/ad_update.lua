@@ -8,10 +8,10 @@ local db = mysql:new()
 db:set_timeout(1000)  
 local props = {  
     host = "35.193.67.118",  
-    port = 3306,  
+    port = 33306,  
     database = "changgou_business",  
     user = "root",  
-    password = "root"  
+    password = "123456"  
 }  
 
 local res = db:connect(props)  
